@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _atoi - convert a string to an integer.
  * @s: char type string
@@ -9,7 +8,6 @@
 int _atoi(char *s)
 {
 	int sign = 1, resp = 0, firstNum;
-
 	for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)
 	{
 		if (s[firstNum] == '-')
